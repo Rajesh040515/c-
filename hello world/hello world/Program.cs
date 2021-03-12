@@ -6,29 +6,15 @@ namespace hello_world
     {
         static void Main(string[] args)
         {
-            //implicit conversion
+//postfix 
+          int a;
+            a = 50;
+            Console.WriteLine(a++);//output 50
+//prefix
+            int a;
+            a = 50;
+            Console.WriteLine(++a);//output 51
 
-            /* byte b = 1;
-             int i = b;
-             Console.WriteLine(i);*/
-
-
-            //explicit conversion
-            /*int i = 1;
-            byte b = (byte)i;
-            Console.WriteLine(b);*/
-            try
-            {
-                string str = "true";
-                bool b = Convert.ToBoolean(str);
-                Console.WriteLine(b);
-            }
-            catch (Exception)
-            {
-                Console.WriteLine(" ");
-                
-            }
-          
 
         }
     }
