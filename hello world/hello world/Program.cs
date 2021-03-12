@@ -14,12 +14,17 @@ namespace hello_world
     {
         static void Main(string[] args)
         {
-            var method = shippingmethod.express;
-            Console.WriteLine((int)method);
-            var str = method.ToString();
-            var methodname = "express";
-            var shippingmethod=(shippingmethod)enum.Parse(typeof(shippningmethod),methodname);
-        
+            var a = 10;
+            var b = a;
+            b++;
+            Console.WriteLine(string.Format("a:{0},b{1}",a,b);
+
+            var arr = new int[2] { 1, 2 };
+            var arr1 = arr;
+            arr1[0] = 0;
+            Console.WriteLine(string.Format( arry[0],arr1[0]);
+
+
         }
     }
 }
